@@ -1,0 +1,93 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(60, 177, 223);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 20px;
+  height: 100vh;
+}
+
+nav {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  background: ghostwhite;
+  overflow: hidden;
+  box-shadow: 0 20px 35px red;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+a {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: block;
+  padding: 15px;
+}
+
+nav .fas {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item {
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+
+a:hover {
+  background: #eee;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+}

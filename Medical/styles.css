@@ -1,0 +1,220 @@
+/* Reset some styles */
+* {
+    margin: 0;
+ padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 100px;
+  }
+  nav .logo{
+    color: #7813ca;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+  }
+  nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+  }
+  nav .nav-items li{
+    list-style: none;
+    padding: 0 15px;
+  }
+  nav .nav-items li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  nav .nav-items li a:hover{
+    color: #ff3d00;
+  }
+  nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #fff;
+    min-width: 18%!important;
+    border-radius: 2px;
+    border: 1px solid rgba(155,155,155,0.2);
+  }
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-image: url('medical-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background: lightblue;
+}
+
+.home-text {
+    flex: 1;
+    color: navy;
+    font-size: 35px;
+    padding-left: 9%;
+    top: 40%;
+}
+
+.home-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.appointment-form {
+    flex: 1;
+    margin-left: 5rem;
+}
+
+.appointment-form h2 {
+    color: navy;
+    margin-bottom: 1rem;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.appointment-form input[type="text"],
+.appointment-form input[type="email"],
+.appointment-form input[type="date"],
+.appointment-form input[type="time"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.appointment-form button {
+    background-color: orangered;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.why-choose-us {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    text-align: left;
+}
+
+.why-choose-us h2 {
+    color: #333;
+    margin-bottom: 2rem;
+  
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 31%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box; /* Add this line */
+}
+
+.card-image {
+    width: 50px; /* Change this value */
+    height: 50px; /* Add this line */
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.card p {
+    color: #666;
+    text-align: center;
+}
+.our-services {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+    background: beige;
+}
+
+.our-services h2 {
+    color: #333;
+    margin-bottom: 2rem;
+
+    
+}
+
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%; /* Change this line */
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem; /* Change this line */
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-image {
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.service-card p {
+    color: #666;
+    text-align: center;
+}
+.about-content h2{
+    font-size: 30px;
+    padding-top: 2%;
+}
+.about-content p{
+     font-size: 25px;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 2%;
+}

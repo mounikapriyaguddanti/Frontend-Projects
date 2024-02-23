@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
+}
+body{
+  background: #f2f2f2;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(b1.avif);
+}
+nav{
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 100px;
+}
+nav .logo{
+  color: #7813ca;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+nav .nav-items{
+  display: flex;
+  flex: 1;
+  padding: 0 0 0 40px;
+}
+nav .nav-items li{
+  list-style: none;
+  padding: 0 15px;
+}
+nav .nav-items li a{
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav .nav-items li a:hover{
+  color: #ff3d00;
+}
+nav form{
+  display: flex;
+  height: 40px;
+  padding: 2px;
+  background: #fff;
+  min-width: 18%!important;
+  border-radius: 2px;
+  border: 1px solid rgba(155,155,155,0.2);
+}
+
+
+.background-image{
+    background: url(Doctor.jpg);
+    width: 50%;
+    height: 100vh;
+}
+    /*
+    background-size:cover ;
+    background-repeat: no-repeat;/*
+}
+   /* padding-top: 6%;/*
+    position: absolute;
+}
+.background-content{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-80%);
+}
+.background-content h1{
+    color: #7813ca;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.background-content p{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+    <div class="wrapper p-3">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="html.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">HTML stands for Hyper Text Markup Language
+                HTML is the standard markup language for creating Web pages and it
+             describes the structure of a Web page.
+                HTML consists of a series of elements,
+                HTML elements tell the browser how to display the content</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="css3.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">CSS stands for Cascading Style Sheets,
+                CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+                CSS saves a lot of work. It can control the layout of multiple web pages all at once
+                External stylesheets are stored in CSS files
+                </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="javascript-logo.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">JavaScript is the Programming Language for the Web.
+
+                JavaScript can update and change both HTML and CSS.
+                
+                JavaScript can calculate, manipulate and validate data.It is also known as the scripting language for webpages.</p>
+            </div>
+          </div>

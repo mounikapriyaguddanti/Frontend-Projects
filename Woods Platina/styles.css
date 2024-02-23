@@ -1,0 +1,490 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+#fixedButton {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: rotate(-90deg);
+    background-color: #8B4513; /* Brown background color */
+    color: #fff;
+    padding: 10px 9px;
+    cursor: pointer;
+    border: none;
+    writing-mode:vertical-r;;
+
+    border-radius: 5px; /* Square shape with rounded corners */
+    z-index: 1001; /* Make sure it's above the popup */
+}
+
+.navbar {
+    background-color: white;
+    padding: 2px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: right;
+}
+
+.navbar-logo img {
+    height: 100px;
+    width: 100px; /* Adjust the height as needed */
+    margin-left: 220px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items:right;
+}
+
+.navbar-links a {
+    color: black;
+    margin:  30px;
+    FONT-SIZE: 20PX;
+    text-decoration: none;
+}
+/* Add this style for the full-width image */
+.full-width-image {
+    width: 100%;
+    margin-top: 90px; 
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* ...rest of the CSS remains the same ... */
+
+/* Add this style for the overview section */
+.overview-section {
+    padding: 40px;
+    background-color: white;
+}
+
+.overview-content {
+    display: flex;
+    align-items: center;
+}
+
+.overview-image img {
+    margin-left: 100px;
+    height: 500px;
+    max-width: 1500px; /* Adjust the max-width of the image as needed */
+}
+
+.overview-text {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+/* ...rest of the CSS remains the same ... */
+
+/* ... (previous CSS code) ... */
+/* Reset some default styles and provide a container for the content */
+.overview-text1 {
+    margin-left: 130px;
+    margin-right: 2px;
+}
+ table, tr, td, div {
+    margin-left: 200 px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 2px;
+}
+
+/* Style for small logos section */
+.small-logos {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.logo-item {
+    text-align: center;
+}
+
+.logo-item img {
+    max-width: 150px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.logo-info {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+/* Add some styling for the overview sections (adjust as needed) */
+.overview-section1 {
+    margin: 30px ;
+    background-color: white;
+}
+
+.overview-content1 {
+    display: flex;
+
+    align-items: center;
+}
+
+.overview-image1 img {
+    max-width: 1100px;
+    margin-right: 100px;
+    margin-left: 30px;
+    height: 800px;
+}
+
+/* Add your custom styles here */
+
+
+/* Additional styles for the Project Gallery */
+/* Add styles for the project gallery section */
+.project-gallery {
+    width: 85%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.project-gallery h2 {
+    text-align: center;
+    font-size: 40d:\New folder\floor.jpgpx;
+    margin-bottom: 20px;
+}
+
+/* Styles for the Swiper container */
+.scontainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Styles for table cells (td) */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles for images inside table cells */
+td img {
+    width: 550px;
+    height: 250px;
+    border: 1px solid #ddd; /* Add a border around images */
+    border-radius: 8px; /* Optional: Add rounded corners to images */
+}
+
+/* Add more styles as needed */
+
+
+
+
+
+/* Add more styles as needed */
+
+
+
+/* ... (rest of the CSS) ... */
+
+
+button{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    }
+
+/* Add styles for the Floor section */
+.Floor {
+    text-align: center;
+    padding: 50px 0;
+    background-color: white; /* Optional: Set background color */
+}
+
+.Floor .content {
+    margin-bottom: 10px;
+}
+
+.Floor h2 {
+    font-size: 36px;
+    color: #333; /* Optional: Set text color */
+}
+
+.Floor img {
+    width: 100%;
+    max-width: 800px; /* Optional: Set a maximum width for the image */
+    height: 500px;
+    border: 1px solid #ddd; /* Optional: Add a border around the image */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Add styles for the Location section */
+.Location {
+    text-align: center;
+    padding: 50px 0;
+    background-color: white; /* Optional: Set background color */
+}
+
+.Location .content {
+    margin-bottom: 1px;
+}
+
+.Location h2 {
+    font-size: 36px;
+    color: #333; /* Optional: Set text color */
+}
+.Location p {
+    font-size: 18px;
+    margin-left:200px;
+    margin-right:200px;
+    line-height: 1.5;
+    color: #555; /* Optional: Set paragraph text color */
+}
+.Location img {
+    width: 100%;
+    max-width: 800px; /* Optional: Set a maximum width for the image */
+    height: 500px;
+    border: 1px solid #ddd; /* Optional: Add a border around the image */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+
+
+.small-logos1 {
+    max-width: auto;
+    margin-top: 0px;
+    background-color: #f0f0f0;
+   /* Center the container horizontally */
+    text-align: center; /* Center the content within the container */
+}
+
+.small-logos1 .centered-table {
+    width: 100px;
+    margin: 150px;
+    border-collapse: collapse;
+}
+
+.small-logos1 .centered-table tr {
+    padding: 20px;
+    width: 150px;
+    text-align: left;
+}
+
+.small-logos1 .centered-table td {
+    padding: 20px;
+    text-align: justify;
+    width: 400px;
+}
+
+.small-logos1 .logo-item1 img {
+    width: 120px;
+    height: 100px;
+    margin-bottom: 3px;
+}
+
+.small-logos1 .logo-item1 H2 {
+    margin-top: 0;
+    color: #3498db; /* Adjust the heading color as needed */
+}
+
+.small-logos1 .logo-info1 {
+    color: #555; /* Adjust the text color as needed */
+}
+
+.small-logos1 H4 {
+    margin-top: 1px; /* Adjust the top margin as needed */
+    color: black; /* Adjust the heading color as needed */
+}
+
+.small-logos1 P {
+    margin-bottom: 20px;
+    color: #555; /* Adjust the text color as needed */
+}
+
+
+
+/* Popup Container */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+
+
+
+
+
+
+
+.about-developer {
+    background-color: #0a3112; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.about-developer h2 {
+    font-size: 24px;
+}
+
+.about-developer p {
+    margin-left: 150px ;
+    margin-right: 150px ;
+    line-height: 1.6;
+    align-items: center;
+}
+
+.stats {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stat-item {
+    flex: 1;
+}
+
+.scanner-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+}
+
+.scanner-item {
+    text-align: center;
+    margin: 15px; /* Adjust margin as needed */
+}
+
+.scanner-item img {
+    width: 100px;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+.scanner-item p {
+    margin-top: 5px; /* Add margin between image and paragraph */
+
+}
+
+
+
+.footer-section {
+    background-color: #fff; /* White background color */
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 20px;
+}
+
+.footer-section img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    text-align: center;
+    color: #555; /* Adjust text color as needed */
+    margin: 0; 
+}
+
+
+
+ /* Add your other styles as needed */
+ .fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Adjust as needed */
+    color: black; /* Adjust text color as needed */
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-container label {
+    margin-right: 10px;
+
+}
+
+.form-container input,
+.form-container button {
+    padding: 8px;
+    margin: 10px;
+}
+
+#enquire-now {
+    padding: 9px;
+    font-size: 20px; 
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    /* Styles for screens between 769px and 1200px wide */
+}
+
+@media (min-width: 1201px) {
+    /* Styles for screens wider than 1200px */
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+}
+
+
+

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>DashBoard</title>
+      <link rel="stylesheet" href="style.css" />
+      <!-- Font Awesome Cdn Link 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#" class="logo">
+              <img src="logo.png" alt="">
+              <span class="nav-item">DashBoard</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-home"></i>
+              <span class="nav-item">Home</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-user"></i>
+              <span class="nav-item">Profile</span>
+            </a></li>
+            <li>
+                <a href="form.html">
+                  <i class="fas fa-file-alt"></i> <!-- Updated icon class -->
+                  <span class="nav-item">Form</span>
+                </a>
+              </li>
+            <li><a href="#">
+              <i class="fas fa-tasks"></i>
+              <span class="nav-item">Tasks</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-cog"></i>
+              <span class="nav-item">Settings</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-question-circle"></i>
+              <span class="nav-item">Help</span>
+            </a></li>
+            <li><a href="#" class="logout">
+              <i class="fas fa-sign-out-alt"></i>
+              <span class="nav-item">Log out</span>
+            </a></li>
+          </ul>
+        </nav>
+        <section class="form">
+            <h1 style="color:green; text-align: center;">SMART SCHOOL</h1>
+            <div class="form-container">
+                <h3 style="background-color: hsl(305, 53%, 67%);">Staff Details</h3>
+                
+                <form action="">
+                 <div class="details" >
+                        <div>
+                            <label for="employment_status">Employment Status:*</label><br/>
+                            <select name="employment_status" id="employment_status">
+                                <option value="temporary">Temporary</option>
+                                <option value="permanent">Permanent</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Staff Type:*</label><br/>
+                            <input type="radio" name="staff_type" id="teaching" value="teaching"/>Teaching
+                            <input type="radio" name="staff_type" id="non_teaching" value="non_teaching"/>Non-Teaching<br/>
+                            <input type="radio" name="staff_type" id="Transport" value="Transport"/>Transport
+                         
+                        </div>
+                    
+                        <div>
+                            <label for="staff_department">Staff Department:*</label>
+                            <select name="staff_department" id="staff_department">
+                                <option value="select Department">select Department</option>
+                                <option value="department1">ECE</option>
+                                <option value="department2">CSE</option>
+                                <option value="department3">IT</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="employment_category">Employment Category:*</label>
+                            <select name="employment_category" id="employment_category">
+                                <option value="select category">select category</option>
+                                <option value="category1">Category 1</option>
+                                <option value="category2">Category 2</option>
+                                <option value="category3">Category 3</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="Designation">Designation:*</label><br/>
+                            <select name="Designation" id="Designation">
+                                <option value="Select Designation">Select Designation</option>
+                                <option value="Phd">Phd</option>
+                                <option value="M.tech">M.tech</option>
+                                <option value="B.tech">B.tech</option>
+                            </select>
+                        </div>           
+                        <div>
+                            <label for="Qualification type">Qualification Type:*</label>
+                            <select name="Qualification type" id="Qualification type">
+                                <option value="Select Qualification type">Select Qualification type</option>
+                                <option value="Phd">Phd</option>
+                                <option value="M.tech">M.tech</option>
+                                <option value="B.tech">B.tech</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="Eduction Qualification">Eduction Qualification:*</label>
+                            <select name="Eduction Qualification" id="Eduction Qualification">
+                                <option value="Select Eduction Qualification">Select Eduction Qualification</option>
+                                <option value="Phd">Phd</option>
+                                <option value="M.tech">M.tech</option>
+                                <option value="B.tech">B.tech</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="Access Level">Access Level:*</label>
+                            <select name="Access Level" id="Access Level">
+                                <option value="Select Access Level">Select Access Level</option>
+                                <option value="L1">L1</option>
+                                <option value="L2">L2</option>
+                                <option value="L3">L3</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="Tranied As">Tranied As:*</label><br/>
+                            <select name="Tranied As" id="Tranied As">
+                                <option value="Select Level">Select Level</option>
+                                <option value="Phd">Phd</option>
+                                <option value="M.tech">M.tech</option>
+                                <option value="B.tech">B.tech</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>CTET Qualified:*</label><br/>
+                            <input type="radio" name="CTET Qualified" id="Yes" value="Yes"/>Yes
+                            <input type="radio" name="CTET Qualified" id="No" value="No"/>No
+                        </div>
+                        <br/>
+                        <br/>
+                        
+                    </div>
+                </form>
+                <h3 style="background-color:hsl(305, 53%, 67%);;">Personal Details:*</h3><br/>
+                <form action="">
+                    <div class="details" >
+                        
+                        <div>
+                            <label for="First name">First name:*</label>
+                            <input type="text" name="firstname">
+                        </div>
+                        <div>
+                            <label for="Middle name">Middle name:*</label>
+                            <input type="text" name="middlename">
+                        </div>
+                        <div>
+                            <label for="Last name">Last name:*</label>
+                            <input type="text" name="lastname">
+                        </div>
+                        <div>
+                            <label for="Mobile No">Mobile No:*</label>
+                            <input type="tel" name="Mobile No">
+                        </div>
+                        <div>
+                            <label for="Emergency Contact No ">Emergency Contact No:*</label>
+                            <input type="tel" name="Emergency Contact No">
+                        </div>
+                        <div>
+                            <label>Gender</label><br/>
+                            <input type="radio" name="Gender" id="Male" value="Male"/>Male
+                            <input type="radio" name="Gender" id="Female" value="Female"/>Female
+                            <input type="radio" name="Gender" id="Other" value="Other"/>Other
+                        </div>
+                        <div>
+                            <label>Enter Date of Birth:*</label>
+                            <input type="date" name="DOB">
+                        </div>
+                        <div>
+                            <label>Email id:*</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div>
+                            <label>Permanent Address:*</label>
+                            <!--<textarea rows="4" cols="50" name="Address"></textarea>-->
+                            <input type="text" name="Permanent Address">
+                            
+                        </div>
+                        <div>
+                            <label>Corresponding Address:*</label>
+                            <input type="text" name="Corresponding Address">
+                        </div>
+                        <div>
+                            <label>Religion:*</label><br/>
+                            
+                            <select name="Religion" id="Religion">
+                                <option value="Hindu">Hindu</option>
+                                <option value="Mulism">Mulism</option>
+                                <option value="Chirst">Chirst</option>
+                            </select>
+                        </div>
+        
+                    </div>
+                </form>
+                <h3 style="background-color:hsl(305, 53%, 67%);;">Other Details</h3>
+                <form action="">
+                    <div class="details">
+                        <div>
+                            <label>Adhar No:*</label>
+                            <input type="text" name="Adhar No">
+                        </div>
+                        <div>
+                            <label>PAN No:*</label>
+                            <input type="text" name="PAN No">
+                        </div>
+                        <div>
+                            <label>Date of joining:*</label><br/>
+                            <input type="date" name="DOJ"  >
+                        </div>
+                        <div>
+                            <label>Staff Reference Code:*</label>
+                            <input type="text" name="Staff Reference Code">
+                        </div>
+                        <div>
+                            <label>Salary Pay Type:*</label><br/>
+                            <input type="radio" name="Salary Pay Type" id="Consolidate" value="Consolidate"/>Consolidate
+                            <input type="radio" name="Salary Pay Type" id="Pay" value="Pay"/>Pay<br/>
+                            <input type="radio" name="Salary Pay Type" id="Other" value="Other"/>Other
+                        </div>
+                        <div>
+                            <label>Government Id/Resident No:*</label>
+                            <input type="text" name="GN">
+                        </div>
+                        <div>
+                            <label>Citizenship:*</label><br/>
+                            
+                            <select name="Citizenship" id="Citizenship">
+                                <option value="Indian">Indian</option>
+                                <option value="American">American</option>
+                                <option value="Canadian">Canadian</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                <button class="btn" style="background-color: orangered; color: white; width: 15%;">Save & Continue</button>
+        
+               
+            </section> 
+</body>
+ </html>

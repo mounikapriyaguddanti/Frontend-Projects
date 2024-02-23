@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  
+<body style="text-align:center">
+<h1>JavaScript Promise </h1>
+<h1>promise method </h1>
+<p id="demo"></p>
+
+<script>
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+let myPromise = new Promise(function(myResolve, myReject) {
+  let x = 3;
+  if (x == 3) {
+    myResolve("ok,condition matched");
+  } else {
+    myReject("Error");
+  }
+});
+
+myPromise.then(
+  function(value) {myDisplayer(value);},
+  function(error) {myDisplayer(error);}
+);
+</script>
+</body>
+</html>
